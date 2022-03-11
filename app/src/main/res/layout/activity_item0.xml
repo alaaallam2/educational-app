@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="#FFF0DD"
+    android:layout_height="wrap_content"
+    tools:context=".item0">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:text="Lesson1 : Planents" />
+    <TextView
+        android:id="@+id/textviwe3"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView2"
+        android:text="Defination of planents"
+        />
+    <TextView
+      android:id="@+id/textview4"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textviwe3"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text ="A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and – according to the International Astronomical Union but not all planetary scientists – has cleared its neighbouring region of planetesimals"
+        />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_below="@id/textview4"
+        app:srcCompat="@drawable/alaa" />
+    <TextView
+        android:layout_below="@id/image1"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The planets were thought by Ptolemy to orbit Earth in deferent and epicycle motions. Although the idea that the planets orbited the Sun had been suggested many times, it was not until the 17th century that this view was supported by evidence from the first telescopic astronomical observations, performed by Galileo Galilei. About the same time, by careful analysis of pre-telescopic observational data collected by Tycho Brahe, Johannes Kepler found the planets' orbits were elliptical rather than circular. As observational tools improved, astronomers saw that, like Earth, each of the planets rotated around an axis tilted with respect to its orbital pole, and some shared such features as ice caps and seasons. Since the dawn of the Space"
+/>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF0DD"
+    android:layout_height="match_parent"
+    tools:context=".item1">
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:text="Lesson2 : H2O" />
+    <TextView
+        android:id="@+id/textviwe3"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView2"
+        android:text="Defination of H2O"
+        />
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_below="@+id/textviwe3"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text ="Water (chemical formula: H2O) is a transparent fluid which forms the world's streams, lakes, oceans and rain, and is the major constituent of the fluids of organisms. As a chemical compound, a water molecule contains one oxygen and two hydrogen atoms that are connected by covalent bonds."
+        />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_below="@id/textview4"
+        app:srcCompat="@drawable/alaaa" />
+    <TextView
+        android:layout_below="@id/image1"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Wateris the name of the liquid state of H2O at standard ambient temperature and pressure. It forms precipitation in the form of rain and aerosols in the form of fog. Clouds are formed from suspended droplets of water and ice, its solid state. When finely divided, crystalline ice may precipitate in the form of snow. The gaseous state of water is steam or water vapor. Water moves continually through the water cycle of evaporation, transpiration (evapotranspiration), condensation, precipitation, and runoff, usually reaching the sea.
+Water covers 71% of the Earth's surface, mostly in seas and oceans.[3] Small portions of water occur as groundwater (1.7%), in the glaciers and the ice caps of Antarctica and Greenland (1.7%), and in the air as vapor, clouds "
+/>
+</RelativeLayout>

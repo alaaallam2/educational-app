@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/textsupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*welcome in Support Page*"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/textsupport1"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="if you didn't how to use the application please entre the next link:"
+        android:textSize="20sp"
+        android:layout_below="@+id/textsupport"
+        />
+    <TextView
+        android:id="@+id/textsupport2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.pagesupport.com/"
+        android:layout_marginTop="20dp"
+        android:textColor="#FBF1F1"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/textsupport1"
+        />
+    <TextView
+        android:id="@+id/textsupport3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="if you want ask support please click Here :"
+        android:textSize="20sp"
+        android:layout_below="@+id/textsupport2"
+        />
+    <TextView
+        android:id="@+id/textsupport4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.pagesupport.com/"
+        android:layout_marginTop="20dp"
+        android:textColor="#F8F5F5"
+        android:layout_margin="10dp"
+        android:fontFamily="cursive"
+        android:textSize="15sp"
+        android:layout_below="@+id/textsupport3"
+        />
+    <TextView
+        android:id="@+id/textsupport5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="if you want other Support :"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/textsupport4"
+        />
+    <TextView
+        android:id="@+id/textsupport6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.pagesupport.com/"
+        android:layout_marginTop="20dp"
+        android:textColor="#F6F1F1"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/textsupport5"
+        />
+    <TextView
+        android:id="@+id/textsupport7"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="if you want to call  director : "
+        android:textSize="20sp"
+        android:layout_below="@+id/textsupport6"
+        />
+    <TextView
+        android:id="@+id/textsupport8"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="0199779799"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/textsupport7"
+        />
+
+</RelativeLayout>
